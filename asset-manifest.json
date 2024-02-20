@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nested--menu/static/css/main.e1bb1443.css",
+    "main.js": "/nested--menu/static/js/main.ca494e85.js",
+    "index.html": "/nested--menu/index.html",
+    "main.e1bb1443.css.map": "/nested--menu/static/css/main.e1bb1443.css.map",
+    "main.ca494e85.js.map": "/nested--menu/static/js/main.ca494e85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1bb1443.css",
+    "static/js/main.ca494e85.js"
+  ]
+}
