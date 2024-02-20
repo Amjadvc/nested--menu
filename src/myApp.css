@@ -1,0 +1,44 @@
+* {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 550px;
+  width: 400px;
+  background: #777;
+  padding: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sub-menu {
+  padding-left: 60px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: white;
+  padding: 14px;
+  border-radius: 7px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  font-weight: bold;
+  color: #673ab7;
+  font-size: 15px;
+}
+
+svg {
+  padding-right: 10px;
+  color: #e41cbe;
+  font-size: 19px;
+}

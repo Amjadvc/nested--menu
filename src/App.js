@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./myApp.css";
+import Menu from "./Components/Menu";
 
-function App() {
+const tree = [
+  {
+    name: "Menu 1",
+    children: [
+      {
+        name: "Sub Menu 1",
+        children: [{ name: "Sub Sub Menu 1" }],
+      },
+      { name: "Sub Menu 1" },
+    ],
+  },
+  {
+    name: "Menu 2",
+    children: [
+      { name: "Sub Menu 2" },
+      {
+        name: "Sub Menu 2",
+        children: [{ name: "Sub Sub Menu 2" }, { name: "Sub Sub Menu 2" }],
+      },
+    ],
+  },
+];
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Menu items={tree} />
     </div>
   );
 }
-
-export default App;
